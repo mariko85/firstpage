@@ -1,0 +1,35 @@
+
+
+@media (max-width:624px)  {
+    .div_1{
+
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .div1:nth-child(1) {
+        width: 80%;
+    }
+.div1{
+    width: 30%;
+}
+.navigation{
+    display: none;
+}
+
+.fa-sharp-duotone fa-solid fa-bars{
+    display: block;
+}
+
+}
+
+
+@media (max-width:100%){
+    .fa-sharp-duotone fa-solid fa-bars{
+        display: none;
+    }
+
+}
+
+
