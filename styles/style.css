@@ -42,7 +42,9 @@ body{
 }
 
 
+
  
+
 
 
 
@@ -120,4 +122,57 @@ iframe{
 .fa-image{
     display: none;
     
+}
+
+
+
+.bg-image{
+   
+    background-image: url( 'https://img.freepik.com/premium-photo/winter-background-with-snowman-illustration-ai-generativexa_115919-18523.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.bg-image::before{
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: black;
+    opacity: 50%
+
+}
+
+a{
+    position: relative;
+
+}
+
+a::after{
+    content: ' ';
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    display: block;
+}
+
+
+a:hover::after{
+    width: 100%;
+}
+
+.fsevdo::before{
+    padding-top: 50px;
+    content: ' ';
+    background-color: blueviolet;
+    width: 10px;
+    height: 60px;
+    display: inline-block;
 }
