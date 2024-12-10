@@ -176,3 +176,9 @@ a:hover::after{
     height: 60px;
     display: inline-block;
 }
+
+
+.burger{
+    display: none;
+    
+}
