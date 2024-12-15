@@ -1,3 +1,6 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css");
+
+
 header{
     display: flex;
     justify-content: space-between;
@@ -129,7 +132,8 @@ iframe{
 .bg-image{
    
     background-image: url( 'https://img.freepik.com/premium-photo/winter-background-with-snowman-illustration-ai-generativexa_115919-18523.jpg');
-    height: 800px;
+    height: 600px;
+    width: 700px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -161,6 +165,7 @@ a::after{
     left: 0;
     background-color: red;
     display: block;
+    transition-timing-function: linear;
 }
 
 
@@ -182,3 +187,17 @@ a:hover::after{
     display: none;
     
 }
+
+
+
+.font-ALKDots{
+    font-family: 'ALKDots';
+    font-size: 20px;
+}
+
+
+
+.font-Rounded{
+    margin-top: 50px;
+ font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 50px;}
