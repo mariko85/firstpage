@@ -6,4 +6,31 @@
          url('../fonts/alkdots-webfont.woff') format('woff'), /* Pretty Modern Browsers */
          url('../fonts/alkdots-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/alkdots-webfont.svg#alkdotsregular') format('svg'); /* Legacy iOS */
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Black.eot');
+    src: url('Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('Lato-Black.woff2') format('woff2'),
+        url('Lato-Black.woff') format('woff'),
+        url('Lato-Black.ttf') format('truetype'),
+        url('Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
